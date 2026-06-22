@@ -12,4 +12,5 @@ plt.title("Machine Failure Distribution")
 plt.xlabel("Failure Status")
 plt.ylabel("Count")
 
+plt.savefig("results/data_exploration.png")
 plt.show()

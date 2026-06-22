@@ -10,4 +10,5 @@ plt.title("Rotational Speed Distribution")
 plt.xlabel("Rotational Speed (RPM)")
 plt.ylabel("Frequency")
 
+plt.savefig("results/rotational_speed_distribution.png")
 plt.show()

@@ -10,4 +10,5 @@ plt.title("Air Temperature Distribution")
 plt.xlabel("Air Temperature (K)")
 plt.ylabel("Frequency")
 
+plt.savefig("results/air_temperature_distribution.png")
 plt.show()

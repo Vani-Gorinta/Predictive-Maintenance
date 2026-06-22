@@ -10,4 +10,5 @@ plt.title("Process Temperature Distribution")
 plt.xlabel("Process Temperature (K)")
 plt.ylabel("Frequency")
 
+plt.savefig("results/process_temperature_distribution.png")
 plt.show()

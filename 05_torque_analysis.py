@@ -10,4 +10,5 @@ plt.title("Torque Distribution")
 plt.xlabel("Torque (Nm)")
 plt.ylabel("Frequency")
 
+plt.savefig("results/torque_distribution.png")
 plt.show()
