@@ -34,6 +34,10 @@ Created new features:
 
 * Temperature_Difference = Process Temperature - Air Temperature
 * Wear_Torque_Index = Tool Wear × Torque
+* AirTemp_RollingMean
+* ProcessTemp_RollingMean
+* Torque_RollingMean
+* ToolWear_RollingMean
 
 ## Files
 
@@ -46,7 +50,15 @@ Created new features:
 
 ## Current Status
 
-EDA and Feature Engineering completed.
+EDA and Initial Feature Engineering completed.
+
+Completed:
+* Dataset Understanding
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Rolling Mean Feature Generation
+
+Dataset is prepared for advanced feature engineering and machine learning model development.
 
 ## Next Steps
 
