@@ -1,0 +1,33 @@
+AI4I 2020 Predictive Maintenance Dataset Analysis
+
+Dataset Size:
+- Rows: 10000
+- Columns: 14
+
+Findings:
+
+1. No missing values found.
+
+2. Machine Failure Distribution:
+- Normal machines: 9362
+- Failed machines: 638
+- Dataset is highly imbalanced.
+
+3. Air Temperature:
+- Centered around 300 K.
+- Nearly normal distribution.
+
+4. Process Temperature:
+- Centered around 310 K.
+- Stable operating range.
+
+5. Rotational Speed:
+- Average around 1550 RPM.
+- Most machines operate between 1400-1700 RPM.
+
+6. Torque:
+- Average around 40 Nm.
+- Most readings between 30-50 Nm.
+
+Conclusion:
+The dataset is clean and suitable for predictive maintenance modeling. The target variable is highly imbalanced, indicating that balancing techniques such as SMOTE may be required during model training.
