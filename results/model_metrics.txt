@@ -1,0 +1,10 @@
+Model Evaluation Results
+
+Accuracy : 0.993
+Precision: 0.907
+Recall   : 0.992
+F1 Score : 0.948
+
+Confusion Matrix
+[[1859   13]
+ [   1  127]]
